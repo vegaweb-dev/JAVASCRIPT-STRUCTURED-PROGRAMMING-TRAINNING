@@ -1,0 +1,15 @@
+{
+  "name": "javascript-automation-train-nov2025",
+  "version": "1.0.0",
+  "description": "+200 javascript challenges",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Carlos Vega",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
