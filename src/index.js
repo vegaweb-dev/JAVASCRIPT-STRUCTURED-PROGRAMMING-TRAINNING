@@ -10,6 +10,7 @@ import { multiplyAll } from "./challenges/08-arrays-multiply-elements/multiply-e
 import { getStringLengths } from "./challenges/09-arrays-string-lengths/get-string-lengths.js";
 import { findIndexOfvalue } from "./challenges/10-array-index-of-value/find-index-of-value.js";
 import { getPositiveNumbers } from "./challenges/11-arrays-filter-positive-numbers/get-positive-numbers.js";
+import { reverseString } from "./challenges/12-reverse-string/reverse-str.js";
 console.log(containElement([3,3,4,5,6],6));
 console.log(findLargestNumber([1,3,10,5,6,7]))
 console.log(countOccurrences([1,2,2,3,2],2))
@@ -22,3 +23,4 @@ console.log(multiplyAll([1,2,3],3))
 console.log(getStringLengths(["cat","house","sun"]))
 console.log(findIndexOfvalue([10,20,30,40],30))
 console.log(getPositiveNumbers([-9,4,5,-8]))
+console.log(reverseString("hello"))
