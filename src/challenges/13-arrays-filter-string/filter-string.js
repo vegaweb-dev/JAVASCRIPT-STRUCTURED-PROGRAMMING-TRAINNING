@@ -6,5 +6,5 @@ Expected output: 3
 */
 
 
-export const filterArray = (arr) =>
+export const countStrings = (arr) =>
   arr.filter((el) => typeof el === "string").length;
