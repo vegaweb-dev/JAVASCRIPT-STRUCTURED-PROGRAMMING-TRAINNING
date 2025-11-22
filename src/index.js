@@ -15,6 +15,8 @@ import { countStrings } from "./challenges/13-arrays-filter-string/filter-string
 import { countVowels } from "./challenges/14-strings-count-vowels/count-vowels.js";
 import { allGreaterThan } from "./challenges/15-arrys-count-filter/filter-array-limit.js";
 import { findFirstNegative } from "./challenges/16-arrays-find-first-negative-number/find-first-negative.js";
+import { findSmallestNumber } from "./challenges/17-arrays-filter-smallest-number/filter-smallest-number.js";
+
 console.log(containElement([3,3,4,5,6],6));
 console.log(findLargestNumber([1,3,10,5,6,7]))
 console.log(countOccurrences([1,2,2,3,2],2))
@@ -32,3 +34,4 @@ console.log(countStrings(["bob",1,2,3,4,"KISS","SRP","SOLID"]))
 console.log(countVowels("how many VOWELS"))
 console.log(allGreaterThan([2,3,4,5,6,7],1))
 console.log(findFirstNegative([2,3,4,5,6,7]))
+console.log(findSmallestNumber([2,3,4,5,6,7,8,9]))
