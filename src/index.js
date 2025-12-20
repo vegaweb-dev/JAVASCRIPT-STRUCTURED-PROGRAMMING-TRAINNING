@@ -21,6 +21,7 @@ import { onlyEven } from "./challenges/19-arrays-filter-even-numbers/only-even.j
 import { squareArray } from "./challenges/20-arrays-square-each-number/square-array.js";
 import { filterAllowed } from "./challenges/21-arrays-filter-allowed/filter-allowed.js";
 import { countConsonants } from "./challenges/22-string-count-consonants/count-consonants.js";
+import { sumDigits } from "./challenges/23-arrays-sum-values/add-elements.js";
 console.log(containElement([3,3,4,5,6],6));
 console.log(findLargestNumber([1,3,10,5,6,7]))
 console.log(countOccurrences([1,2,2,3,2],2))
@@ -44,3 +45,4 @@ console.log(onlyEven([2,4]))
 console.log(squareArray([2,3]))
 console.log(filterAllowed([1,2,3,4,5,"uva"],[2,3]))
 console.log(countConsonants("gg"))
+console.log(sumDigits("12876"));
